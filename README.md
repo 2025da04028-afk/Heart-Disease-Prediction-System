@@ -6,7 +6,7 @@ This project predicts whether a patient is likely to have heart disease using Ma
 
 The application allows users to upload patient data, select a trained model, and obtain predictions through an interactive Streamlit web application.
 
----
+
 
 ## 📂 Dataset
 
@@ -33,7 +33,7 @@ Target:
 - 0 → No Heart Disease
 - 1 → Heart Disease
 
----
+
 
 ## 🧠 Machine Learning Models
 
@@ -45,7 +45,7 @@ The following models were trained and evaluated:
 - Naive Bayes
 - Random Forest
 
----
+
 
 ## 📊 Model Comparison
 
@@ -57,13 +57,26 @@ The following models were trained and evaluated:
 | Naive Bayes | 0.8439 | 0.8298 | 0.8298 | 0.8298 | 0.8428 | 0.6856 |
 | Random Forest | 0.8488 | 0.8316 | 0.8404 | 0.8360 | 0.8481 | 0.6957 |
 
----
+
 
 ## 🏆 Best Model
 
 Based on the evaluation metrics,
 
 **Logistic Regression** achieved the highest overall performance with an accuracy of **85.85%**.
+
+---
+
+## 📌 Model Observations
+
+| ML Model | Observation |
+|----------|-------------|
+| Logistic Regression | Achieved the highest overall performance with 85.85% accuracy, the highest AUC (0.8563), and the highest MCC (0.7147). It provides a good balance between precision and recall. |
+| Decision Tree | Produced the lowest accuracy (74.15%). It is simple and interpretable but showed lower predictive performance than the other models. |
+| K-Nearest Neighbors (KNN) | Achieved good overall performance (84.39% accuracy) and the highest precision (86.90%), making it effective at reducing false positives. |
+| Naive Bayes | Delivered balanced performance (84.39% accuracy) with equal precision and recall (82.98%). It is computationally efficient and fast to train. |
+| Random Forest | Achieved strong performance (84.88% accuracy) with balanced evaluation metrics. It performed better than Decision Tree but slightly below Logistic Regression. |
+| **Overall Winner** | **Logistic Regression** was selected as the best model because it achieved the highest Accuracy (85.85%), AUC (0.8563), and MCC (0.7147), while maintaining balanced precision and recall. |
 
 ---
 
@@ -118,9 +131,7 @@ streamlit run app.py
 - Download prediction results
 - Interactive Streamlit interface
 
----
 
-## 👨‍💻 Author
 
-Machine Learning Assignment 2
-
+## 🔗 GitHub Repository
+https://github.com/2025da04028-afk/Heart-Disease-Prediction-System.git
