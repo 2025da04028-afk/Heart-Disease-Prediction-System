@@ -61,23 +61,19 @@ The following models were trained and evaluated:
 
 ## 🏆 Best Model
 
-Based on the evaluation metrics,
-
-**Logistic Regression** achieved the highest overall performance with an accuracy of **85.85%**.
-
+Among all the models tested, Logistic Regression gave the best result with an accuracy of **85.85%**.
 ---
 
 ## Model Observations
 
 | Model | Observation |
 |-------|-------------|
-| Logistic Regression | Highest overall accuracy (85.85%) and MCC. Best performing model. |
-| Decision Tree | Lowest accuracy; likely overfits the data. |
-| KNN | Good precision with competitive performance. |
-| Naive Bayes | Simple and fast with balanced results. |
-| Random Forest | Strong ensemble model with good recall and stable performance. |
-| Overall Winner | Logistic Regression achieved the best overall performance. |
-
+| Logistic Regression | Highest accuracy among all models. |
+| Decision Tree | Lowest accuracy in this project. |
+| KNN | Good overall performance. |
+| Naive Bayes | Fast and gave balanced results. |
+| Random Forest | Good performance but slightly below Logistic Regression. |
+| Overall Winner | Logistic Regression performed the best. |
 ## 📁 Project Structure
 
 ```
@@ -129,5 +125,15 @@ streamlit run app.py
 - Download prediction results
 - Interactive Streamlit interface
 
+---
 
+## 🔗 GitHub Repository
+
+Repository Link:
+
+https://github.com/2025da04028-afk/Heart-Disease-Prediction-System
+
+Live Streamlit App:
+
+https://heart-disease-prediction-system-fhkyzzvvezhtx8lllmedzm.streamlit.app/
 
